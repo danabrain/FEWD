@@ -1,0 +1,57 @@
+body {
+  background-color: #EBEBC6;
+}
+
+h1 {
+  color: gray;
+  font-size: 3em;
+  border-bottom: 4px solid white;
+}
+
+#contact li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 20px;
+  font-size: 1.25em;
+ }
+
+.jobs h2 {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+.school h2 {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+.hobbies h2 {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+h3 {
+  color: lime;
+}
+
+p {
+  color: gray;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: lime;
+}
+
+ul li {
+  font-style: italic;
+}
+
+
