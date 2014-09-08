@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+body {
+  font-family: sans-serif;
+}
+
+/* =====================================
+header
+======================================*/
+/*div {
+  border: 1px solid black;
+}
+
+div.container {
+  border: 5px solid green;
+}
+
+div.logo {
+  border: 5px solid pink;
+}
+
+img.microphone {
+  border: 5px solid blue;
+}
+*/
+header {
+  margin-top: -100px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+li .grid {
+  position: relative;
+  top: 40%;
+  transform: translateY(42%);
+}
+
+.toolbar {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+.button {
+  background: linear-gradient(#0066FF, #3385FF);
+  border: 0;
+  border-radius: 10%;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 9px 16px;
+}
+
+/* =====================================
+center
+======================================*/
+
+.container {
+  clear: both;
+  margin-top: 150px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  disply: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo {
+  /*margin-top: 400px;*/
+  width: 100%;
+  margin-left: 75px;
+  height: auto;
+}
+
+.formbox {
+  border: 1px solid #C2C3C3;
+  margin-top: 50px;
+  height: 2.4em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.microphone {
+  float: right;
+  margin-top: 1px;
+}
+
+.searchbar {
+  margin: 0 auto;
+  width: 600px;
+}
+
+input {
+  width: 600px;
+}
+
+button.search {
+  background-color: #FFF0FF;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+  border: 1px solid #C2C3C3;
+  border-radius: 10%;
+
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 550px;
+}
+
+.footer {
+  background-color: #FFF0FF;
+  border: 1px solid #C2C3C3;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+footer ul {
+  display: inline;
+}
+
+.right {
+  margin-right: 40px;
+  float: right;
+}
+
+.left {
+  margin-left: 20px;
+}
