@@ -1,0 +1,91 @@
+html {
+  background-color: gray;
+  margin: 0;
+  border: 15px solid black;
+}
+
+body {
+  background-color: #EBEBC6;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+h1 {
+  color: gray;
+  font-size: 3em;
+  text-align: center;
+  border-bottom: 4px solid white;
+}
+
+span {
+  color: gray;
+  font-size: 2em;
+  font-style: italic;
+
+}
+
+.pic {
+  width: 247px;
+  height: 247px;
+  border: 3px solid white;
+  border-radius: 100%;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border: 5px solid lime;
+  float: right;
+  margin-top: -450px;
+  margin-right: 100px;
+  border-radius: 100%;
+}
+
+#contact li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 20px;
+  font-size: 1.25em;
+ }
+
+.jobs h2 {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+.school h2 {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+.hobbies h2 {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+h3 {
+  color: lime;
+}
+
+p {
+  color: gray;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: lime;
+}
+
+ul li {
+  font-style: italic;
+}
+
+
