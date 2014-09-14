@@ -47,6 +47,7 @@ table {
   border-spacing: 0;
 }
 
+<<<<<<< HEAD
 /*
   ========================================
   Custom styles
@@ -354,4 +355,143 @@ p a {
   margin-bottom: 22px;
   height: 150px;
   max-width: 90%;
+=======
+
+body {
+  font-family: sans-serif;
+}
+
+/* =====================================
+header
+======================================*/
+/*div {
+  border: 1px solid black;
+}
+
+div.container {
+  border: 5px solid green;
+}
+
+div.logo {
+  border: 5px solid pink;
+}
+
+img.microphone {
+  border: 5px solid blue;
+}
+*/
+header {
+  margin-top: -100px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+li .grid {
+  position: relative;
+  top: 40%;
+  transform: translateY(42%);
+}
+
+.toolbar {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+.button {
+  background: linear-gradient(#0066FF, #3385FF);
+  border: 0;
+  border-radius: 10%;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 9px 16px;
+}
+
+/* =====================================
+center
+======================================*/
+
+.container {
+  clear: both;
+  margin-top: 150px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  disply: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo {
+  /*margin-top: 400px;*/
+  width: 100%;
+  margin-left: 75px;
+  height: auto;
+}
+
+.formbox {
+  border: 1px solid #C2C3C3;
+  margin-top: 50px;
+  height: 2.4em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.microphone {
+  float: right;
+  margin-top: 1px;
+}
+
+.searchbar {
+  margin: 0 auto;
+  width: 600px;
+}
+
+input {
+  width: 600px;
+}
+
+button.search {
+  background-color: #FFF0FF;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+  border: 1px solid #C2C3C3;
+  border-radius: 10%;
+
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 550px;
+}
+
+.footer {
+  background-color: #FFF0FF;
+  border: 1px solid #C2C3C3;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+footer ul {
+  display: inline;
+}
+
+.right {
+  margin-right: 40px;
+  float: right;
+}
+
+.left {
+  margin-left: 20px;
+>>>>>>> 36f785df040b1fdc4ac31e05de58d55d8318bbc3
 }
